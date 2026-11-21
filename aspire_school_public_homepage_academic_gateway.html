@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"inverse-surface":"#263142","surface-tint":"#485f83","tertiary-fixed":"#ffdcc3","secondary-fixed":"#d3e4ff","primary":"#00142f","on-tertiary-fixed":"#2f1500","on-secondary-container":"#00477f","on-background":"#111c2c","tertiary-container":"#422000","on-surface-variant":"#44474e","secondary":"#1960a3","inverse-primary":"#b0c8f1","on-primary":"#ffffff","secondary-container":"#7db6ff","outline-variant":"#c4c6cf","secondary-fixed-dim":"#a2c9ff","primary-fixed-dim":"#b0c8f1","on-tertiary-container":"#d97705","background":"#f9f9ff","surface-container-high":"#dee8ff","surface-variant":"#d8e3fa","on-primary-container":"#7a91b7","on-error-container":"#93000a","on-primary-fixed":"#001b3b","outline":"#74777f","on-primary-fixed-variant":"#30476a","on-tertiary":"#ffffff","surface-dim":"#cfdaf1","on-error":"#ffffff","surface-container-highest":"#d8e3fa","error-container":"#ffdad6","primary-container":"#0f294a","on-secondary":"#ffffff","surface-container":"#e7eeff","tertiary-fixed-dim":"#ffb77d","tertiary":"#240f00","surface":"#f9f9ff","surface-container-low":"#f0f3ff","surface-container-lowest":"#ffffff","error":"#ba1a1a","primary-fixed":"#d5e3ff","surface-bright":"#f9f9ff","inverse-on-surface":"#ebf1ff","on-secondary-fixed-variant":"#004881","on-secondary-fixed":"#001c38","on-tertiary-fixed-variant":"#6e3900","on-surface":"#111c2c"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xs":"0.25rem","space-xl":"2.5rem","gutter":"1.5rem","space-md":"1rem","margin-mobile":"1rem","gutter-mobile":"1rem","space-lg":"1.5rem","margin":"2rem","space-sm":"0.5rem"},"fontFamily":{"label-sm":["Inter"],"headline-xl-mobile":["Outfit"],"headline-lg":["Outfit"],"headline-md":["Outfit"],"headline-sm":["Outfit"],"headline-xl":["Outfit"],"label-md":["Inter"],"label-lg":["Inter"],"body-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Outfit"],"body-sm":["Plus Jakarta Sans"]},"fontSize":{"label-sm":["10px",{"lineHeight":"12px","fontWeight":"700"}],"headline-xl-mobile":["30px",{"lineHeight":"36px","fontWeight":"700"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"600"}],"headline-md":["22px",{"lineHeight":"28px","fontWeight":"600"}],"headline-sm":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-xl":["40px",{"lineHeight":"48px","fontWeight":"700"}],"label-md":["11px",{"lineHeight":"14px","fontWeight":"600"}],"label-lg":["13px",{"lineHeight":"16px","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface"><header class="fixed top-0 w-full z-50 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-primary text-on-primary w-full px-margin py-space-xs"><div class="w-full flex flex-col md:flex-row items-center justify-between gap-space-xs font-label-md text-label-md"><div class="flex items-center gap-space-md flex-wrap justify-center"><span class="flex items-center gap-space-xs text-secondary-fixed"><span class="material-symbols-outlined text-[14px]">location_on</span>Haroon Chowk, Kuri Road, Shakrial, Rawalpindi</span><span class="hidden md:inline text-outline-variant">|</span><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[14px]">call</span>+92 (051) 000-0000</span></div><div class="flex items-center gap-space-sm"><span class="text-on-tertiary-container uppercase tracking-wider font-label-sm text-label-sm">Switch Workspace:</span><div class="inline-flex rounded-full bg-primary-container p-0.5"><a class="px-space-sm py-0.5 rounded-full font-label-sm text-label-sm text-on-primary-container hover:text-on-primary transition-colors" data-path="public-homepage" href="#">Public</a><a class="px-space-sm py-0.5 rounded-full font-label-sm text-label-sm text-on-primary-container hover:text-on-primary transition-colors" data-path="student-portal" href="#">Student</a><a class="px-space-sm py-0.5 rounded-full font-label-sm text-label-sm text-on-primary-container hover:text-on-primary transition-colors" data-path="teacher-portal" href="#">Teacher</a><a class="px-space-sm py-0.5 rounded-full font-label-sm text-label-sm text-on-primary-container hover:text-on-primary transition-colors" data-path="admin-portal" href="#">Admin</a></div></div></div></div><div class="h-16 bg-surface/95 backdrop-blur-xl w-full px-margin flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Aspire School Official Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrCkZ2nnzLZ_rUFXl_nq9J8trl3RCf52s4dC7jcVgciWRpr6qh72nC1nLKZ19ZUyOlkaVyPQWuf9-OqnUynrPh3Vg_-SJGXO9JJtpnCUssqFaW9czaSIjvj6I7_nxGfw-cGYZ8rEOf7SUb6_-XlC2uywIXk9Lo4sxiW2B_GtPfgDZxXRp10ApxQwvYi2xv3shScGEe612NSA0uFAGRrUNzi-yl8Terl74zyCPA5Q6QI"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">ASPIRE SCHOOL</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Rawalpindi Campus</span></div></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-secondary font-label-lg font-bold border-b-2 border-on-tertiary-container"><a aria-current="page" class="transition-colors py-2 text-secondary font-label-lg font-bold border-b-2 border-on-tertiary-container" data-path="home" href="#">Home</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="academics" href="#">Academics Classes 5-10</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="online-homework-portal" href="#">Online Homework Portal</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="student-portal" href="#">Student Portal</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="teacher-portal" href="#">Teacher Portal</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="admin-portal" href="#">Admin Portal</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="announcements" href="#">Announcements</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="contact-us" href="#">Contact Us</a></nav><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant bg-surface-container px-space-sm py-1 rounded-full"><span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>Academic Session 2024-25</div><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-variant" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZbWSQ_yBVq3q-qJZEHPRDacr7OX5APuZUsTUIz6k0yPTRE_0kaFeC_e6eqFDAitMDc7Z2ZncGZr2DN8ifNlVd5HaC7X5shkQMiMhy-G6PCvMs1WfWAH_5pdbzyw2mmFau6ibYMyUEDhkEcAQNwfh_Ht5Yy-7lSeP1HnRUSV3RpurZPLGmNlpaAS16m8f0VeKGCUz5HE6yfIuPxJZjSppuFsYEtTSetTUSXCUXqw"/></div></div></header><main class="w-full pt-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Immersive Academic Hero Section -->
+<section class="relative w-full bg-primary-container text-on-primary overflow-hidden pb-space-xl pt-space-xl px-margin">
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-secondary/20 blur-3xl pointer-events-none"></div>
+<div class="absolute left-1/3 bottom-0 w-80 h-80 rounded-full bg-on-tertiary-container/10 blur-3xl pointer-events-none"></div>
+<div class="relative max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+<div class="w-full lg:w-7/12 flex flex-col gap-space-md z-10">
+<div class="inline-flex items-center gap-space-xs self-start px-space-md py-1.5 rounded-full bg-surface-variant/20 backdrop-blur-md">
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<span class="font-label-md text-label-md text-secondary-fixed tracking-wide">Haroon Chowk, Kuri Road, Shakrial, Rawalpindi</span>
+</div>
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-widest font-bold">Academic Session 2024–2025</span>
+<h1 class="font-headline-xl text-headline-xl text-on-primary tracking-tight leading-none">
+            Empowering Minds,<br/>
+<span class="text-secondary-container">Inspiring Futures.</span>
+</h1>
+</div>
+<p class="font-body-lg text-body-lg text-on-primary-container max-w-2xl leading-relaxed">
+          Aspire School Rawalpindi provides an elite, structured curriculum exclusively focused on Classes 5 through 10. Combining disciplined classroom pedagogy with high-impact digital homework tracking and Federal/Rawalpindi board rigor.
+        </p>
+<div class="flex flex-wrap items-center gap-space-sm pt-space-sm">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-3 rounded-lg bg-on-tertiary-container text-tertiary font-label-lg text-label-lg font-bold shadow-md hover:brightness-110 transition-all" data-path="online-homework-portal" href="#">
+<span class="material-symbols-outlined text-[18px]">assignment_turned_in</span>
+            Submit Online Homework
+          </a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-3 rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg font-bold shadow-md hover:bg-secondary/90 transition-all" data-path="academics" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+            Explore Academics (Classes 5-10)
+          </a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-md py-3 rounded-lg bg-surface-variant/20 text-on-primary font-label-lg text-label-lg font-semibold hover:bg-surface-variant/30 transition-all" data-path="student-portal" href="#">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+            Student Portal Login
+          </a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-md py-3 rounded-lg bg-surface-variant/20 text-on-primary font-label-lg text-label-lg font-semibold hover:bg-surface-variant/30 transition-all" data-path="teacher-portal" href="#">
+<span class="material-symbols-outlined text-[18px]">school</span>
+            Teacher Portal Login
+          </a>
+</div>
+<div class="grid grid-cols-3 gap-space-md pt-space-md max-w-xl">
+<div class="p-space-sm rounded-lg bg-surface-variant/10 backdrop-blur-sm">
+<div class="font-headline-md text-headline-md text-on-tertiary-container font-bold">100%</div>
+<div class="font-label-sm text-label-sm text-secondary-fixed">Board SSC Pass Rate</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-variant/10 backdrop-blur-sm">
+<div class="font-headline-md text-headline-md text-secondary-fixed-dim font-bold">Classes 5–10</div>
+<div class="font-label-sm text-label-sm text-secondary-fixed">Targeted Focus</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-variant/10 backdrop-blur-sm">
+<div class="font-headline-md text-headline-md text-on-tertiary-container font-bold">Daily</div>
+<div class="font-label-sm text-label-sm text-secondary-fixed">Digital Desk Review</div>
+</div>
+</div>
+</div>
+<div class="w-full lg:w-5/12 flex justify-center lg:justify-end">
+<div class="relative w-full max-w-md bg-surface text-on-surface rounded-xl p-space-lg shadow-xl">
+<div class="absolute -top-3 right-6 bg-on-tertiary-container text-tertiary font-label-sm text-label-sm uppercase font-bold px-space-sm py-1 rounded-full shadow-sm">
+            Live Gateway
+          </div>
+<div class="flex items-center gap-space-sm mb-space-md">
+<div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[20px]">hub</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Unified Portal Access</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Instant academic credentials jump</p>
+</div>
+</div>
+<div class="space-y-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">person</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-primary">Class 9-C Student Desk</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Roll: ASP-2024-0948</div>
+</div>
+</div>
+<a class="px-space-sm py-1 rounded-md bg-primary text-on-primary font-label-sm text-label-sm uppercase font-bold hover:bg-primary/90 transition-colors" data-path="student-portal" href="#">Jump →</a>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">history_edu</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-primary">Faculty Evaluation Desk</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Science & Comp Dept</div>
+</div>
+</div>
+<a class="px-space-sm py-1 rounded-md bg-secondary text-on-secondary font-label-sm text-label-sm uppercase font-bold hover:bg-secondary/90 transition-colors" data-path="teacher-portal" href="#">Access →</a>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[22px]">admin_panel_settings</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-primary">Campus Administration</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Rawalpindi Central Office</div>
+</div>
+</div>
+<a class="px-space-sm py-1 rounded-md bg-inverse-surface text-on-primary font-label-sm text-label-sm uppercase font-bold hover:bg-surface-tint transition-colors" data-path="admin-portal" href="#">Manage →</a>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low rounded-lg p-space-sm text-center">
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center justify-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container">info</span>
+              Enrolled students submit regular daily task sheets online.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Live Announcement & Priority Alerts Ticker -->
+<section class="w-full bg-surface-container-high py-space-sm px-margin">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs shrink-0">
+<span class="w-2.5 h-2.5 rounded-full bg-error animate-ping"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Campus Notice Board:</span>
+</div>
+<div class="flex-1 overflow-hidden">
+<div class="flex items-center gap-space-lg text-on-surface text-body-sm font-body-sm animate-pulse">
+<span class="inline-flex items-center gap-space-xs font-semibold text-secondary">
+<span class="material-symbols-outlined text-[16px]">campaign</span> Class 10 Pre-Board SSC-II Mock Examination Schedule released for March 2025.
+          </span>
+<span class="hidden xl:inline text-on-surface-variant">•</span>
+<span class="hidden xl:inline-flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container">schedule</span> Class 7 & 8 Science Experiment homework submissions due today by 8:00 PM.
+          </span>
+</div>
+</div>
+<a class="shrink-0 font-label-sm text-label-sm text-secondary hover:text-primary font-bold uppercase flex items-center gap-0.5" data-path="announcements" href="#">
+        View All Circulars <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</section>
+<!-- Academic Program Scope (STRICTLY Classes 5 to 10 ONLY) -->
+<section class="w-full py-space-xl px-margin bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="h-1 w-6 rounded-full bg-on-tertiary-container"></span>
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-wider font-bold">Tailored Middle & Matric Education</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+            Academic Scope Exclusively: Classes 5 to 10
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            We specialize purely in the transformative adolescent years, channeling all pedagogical resources into rigorous middle school foundations and board-topping matriculation preparation.
+          </p>
+</div>
+<div class="mt-space-md md:mt-0 flex gap-space-xs">
+<span class="px-space-sm py-1 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm font-semibold">Strict Standard Grade 5-10</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container text-secondary font-label-sm text-label-sm font-semibold">FBISE & BISE Rawalpindi</span>
+</div>
+</div>
+<!-- Class Breakdown Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Class 5 Card -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-bold uppercase">Middle Division</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">Class 5</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Foundational Middle Year</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Focuses on English linguistics, analytical primary-to-middle Mathematics, Integrated General Science, and conceptual Urdu.
+            </p>
+<div class="flex flex-wrap gap-1.5 mb-space-md">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-on-surface font-label-sm text-label-sm">Sec A (General)</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-on-surface font-label-sm text-label-sm">Sec B (General)</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-[12px]"><span class="material-symbols-outlined text-[15px] text-secondary">task_alt</span> 6 Core Modules</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">Daily Homework Desk</span>
+</div>
+</div>
+<!-- Class 6 Card -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-bold uppercase">Middle Division</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">Class 6</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Intermediate Middle Prep</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Introduction to formal laboratory science demonstrations, algebraic reasoning, history-geography integration, and computer literacy.
+            </p>
+<div class="flex flex-wrap gap-1.5 mb-space-md">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-on-surface font-label-sm text-label-sm">Sec A</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-on-surface font-label-sm text-label-sm">Sec B</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-[12px]"><span class="material-symbols-outlined text-[15px] text-secondary">task_alt</span> Lab & Theory Sync</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">Weekly Checkpoints</span>
+</div>
+</div>
+<!-- Class 7 Card -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-bold uppercase">Middle Division</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">Class 7</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Advanced Middle Rigor</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Intensive preparation in Geometry, Chemical & Physical principles, grammar mastery, and algorithmic logic before Matriculation transition.
+            </p>
+<div class="flex flex-wrap gap-1.5 mb-space-md">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-on-surface font-label-sm text-label-sm">Sec A</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-on-surface font-label-sm text-label-sm">Sec B</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-[12px]"><span class="material-symbols-outlined text-[15px] text-secondary">task_alt</span> STEM Focus</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">Digital Submissions</span>
+</div>
+</div>
+<!-- Class 8 Card -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-bold uppercase">Pre-Matriculation</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">Class 8</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Pre-Matric Capstone</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Culmination of middle school studies with diagnostic stream mapping (Biology vs. Computer Science) and standardized term board simulations.
+            </p>
+<div class="flex flex-wrap gap-1.5 mb-space-md">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-on-surface font-label-sm text-label-sm">Sec A (Science Stream)</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-on-surface font-label-sm text-label-sm">Sec B (CS Stream)</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-[12px]"><span class="material-symbols-outlined text-[15px] text-secondary">task_alt</span> Stream Assessment</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">Quarterly Mocks</span>
+</div>
+</div>
+<!-- Class 9 Card (Matric-I) -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-md hover:shadow-lg transition-shadow flex flex-col justify-between relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-1 bg-on-tertiary-container"></div>
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-0.5 rounded-full bg-on-tertiary-container/15 text-on-tertiary-container font-label-sm text-label-sm font-bold uppercase">Board SSC Part I</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">Class 9</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Secondary Matric (SSC-I)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Full board syllabus coverage for Federal and Rawalpindi BISE. Separate streams for Pre-Medical Biology and Computer Science with hands-on lab experiments.
+            </p>
+<div class="flex flex-wrap gap-1.5 mb-space-md">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-primary font-label-sm text-label-sm font-bold">Sec A (Bio Science)</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-primary font-label-sm text-label-sm font-bold">Sec B (Comp Science)</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-primary font-label-sm text-label-sm font-bold">Sec C (Accelerated)</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-[12px] font-semibold text-primary"><span class="material-symbols-outlined text-[15px] text-on-tertiary-container">verified</span> Board Reg Desk</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">Past Paper Practice</span>
+</div>
+</div>
+<!-- Class 10 Card (Matric-II) -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-md hover:shadow-lg transition-shadow flex flex-col justify-between relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-1 bg-secondary"></div>
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold uppercase">Board SSC Part II</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">Class 10</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Graduating Matric (SSC-II)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Final board examination preparation with intensive test series, chapter-wise evaluations, past board solutions, and targeted revision schedules.
+            </p>
+<div class="flex flex-wrap gap-1.5 mb-space-md">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-primary font-label-sm text-label-sm font-bold">Sec A (Bio Prep)</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-primary font-label-sm text-label-sm font-bold">Sec B (CS Prep)</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-primary font-label-sm text-label-sm font-bold">Sec C (Board Merit)</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-[12px] font-semibold text-secondary"><span class="material-symbols-outlined text-[15px] text-secondary">workspace_premium</span> Board Finalists</span>
+<span class="font-label-sm text-label-sm text-on-tertiary-container font-bold">Merit Series Active</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Online Homework & Inspection Feature Highlight -->
+<section class="w-full py-space-xl px-margin bg-surface-container-low">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-5 space-y-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-primary-container text-on-primary">
+<span class="material-symbols-outlined text-[14px] text-on-tertiary-container">cloud_upload</span>
+<span class="font-label-sm text-label-sm uppercase font-bold tracking-wider">Digital Homework Portal</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          Transparent Homework Oversight for Classes 5 to 10
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          No lost notebooks. No missed deadlines. Aspire School's proprietary Online Homework Desk allows students to photograph and upload their daily work, while teachers review, comment, and assign grades with real-time parent notifications.
+        </p>
+<div class="space-y-space-sm pt-space-xs">
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-lowest">
+<span class="material-symbols-outlined text-secondary text-[22px] shrink-0 mt-0.5">photo_camera</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-primary">Multi-Photo Page Scanning</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Upload legible captures of written registers directly from any smartphone or tablet.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-lowest">
+<span class="material-symbols-outlined text-on-tertiary-container text-[22px] shrink-0 mt-0.5">rate_review</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-primary">Subject Teacher Feedback & Marks</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Rubrics tailored to FBISE and Rawalpindi board grading with correction notices.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-lowest">
+<span class="material-symbols-outlined text-secondary text-[22px] shrink-0 mt-0.5">query_stats</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-primary">Automated Parent Progress Log</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Instant visibility into pending, submitted, and approved homework across all 6 grades.</p>
+</div>
+</div>
+</div>
+<div>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg font-semibold hover:bg-primary-container transition-all" data-path="online-homework-portal" href="#">
+            Access Online Homework Desk <span class="material-symbols-outlined text-[18px]">launch</span>
+</a>
+</div>
+</div>
+<!-- Interactive Homework Portal Mockup Card -->
+<div class="lg:col-span-7">
+<div class="bg-surface-container-lowest rounded-xl shadow-xl overflow-hidden">
+<div class="bg-primary text-on-primary p-space-md flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container">menu_book</span>
+<span class="font-headline-sm text-headline-sm text-on-primary">Live Daily Task Feed: Class 10 (SSC-II)</span>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-variant/20 text-secondary-fixed font-label-sm text-label-sm">Subject: Physics</span>
+</div>
+<div class="p-space-lg space-y-space-md">
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm">
+<div class="space-y-1">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase font-bold">Class 10-A Science</span>
+<span class="text-on-surface-variant text-[12px]">Due Today at 6:00 PM</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Electromagnetism: Numerical Exercises 14.1 - 14.6</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Solve full numerical problems in homework register and photograph working steps clearly.</p>
+</div>
+<div class="shrink-0 flex flex-col items-end gap-1">
+<span class="px-space-sm py-1 rounded-full bg-on-tertiary-container/15 text-on-tertiary-container font-label-sm text-label-sm font-bold uppercase">Pending Turn-In</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Max Marks: 20</span>
+</div>
+</div>
+<!-- Upload Drop Simulator -->
+<div class="p-space-lg rounded-xl bg-surface text-center flex flex-col items-center justify-center gap-space-xs">
+<div class="w-12 h-12 rounded-full bg-secondary/10 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">cloud_upload</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-primary">Drop Homework Scan Images Here</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">
+                Supports multiple camera JPG/PNG pages or single PDF register capture (Max 25MB).
+              </p>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<button class="px-space-md py-2 rounded-lg bg-secondary text-on-secondary font-label-sm text-label-sm uppercase font-bold hover:bg-secondary/90 transition-colors" type="button">
+                  Browse Files
+                </button>
+<button class="px-space-md py-2 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm uppercase font-semibold" type="button">
+                  Camera Capture
+                </button>
+</div>
+</div>
+<!-- Recent Evaluated Submissions Preview -->
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase font-bold">Recent Teacher Evaluations</span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center justify-between">
+<div>
+<div class="font-label-md text-label-md font-bold text-primary">Class 9-B Mathematics</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Matrices Ex 1.4</div>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">19/20</span>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Approved</div>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center justify-between">
+<div>
+<div class="font-label-md text-label-md font-bold text-primary">Class 8-A English</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Essay Composition</div>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-on-tertiary-container font-bold">Needs Review</span>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Grammar correction</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Aspire School Rawalpindi -->
+<section class="w-full py-space-xl px-margin bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="text-center max-w-3xl mx-auto mb-space-xl space-y-space-xs">
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-wider font-bold">Institutional Standards</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          Purpose-Built for Secondary Student Achievement
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Located centrally near Haroon Chowk on Kuri Road, Shakrial, Aspire School combines seasoned board faculty with modern technology to deliver proven academic results.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-lg bg-primary text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">devices</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Modern Computer & STEM Lab</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Dedicated high-speed workstations equipped for Classes 6 through 10 Computer Science curriculum, programming logic, and multimedia research.
+            </p>
+</div>
+<div class="pt-space-md">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Hands-on Computing →</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-lg bg-secondary text-on-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">science</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Physics, Chemistry & Bio Labs</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Fully stocked scientific experimental apparatus aligned specifically with SSC Matric practical examination guidelines for Classes 9 & 10.
+            </p>
+</div>
+<div class="pt-space-md">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Lab Safety Certified →</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-lg bg-on-tertiary-container text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">psychology</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Experienced Board Faculty</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Specialist teachers with an established record of producing high 'A1' grades in Rawalpindi Board and Federal Board examinations.
+            </p>
+</div>
+<div class="pt-space-md">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Proven Mentorship →</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-lg bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">task_alt</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Daily Inspection & Discipline</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Strict attendance tracking, morning uniform drills, weekly syllabus tracking, and prompt communication with parents regarding daily academic pacing.
+            </p>
+</div>
+<div class="pt-space-md">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Core Value System →</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Principal's Scholarly Message Section -->
+<section class="w-full py-space-xl px-margin bg-primary-container text-on-primary relative overflow-hidden">
+<div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-space-xl">
+<div class="w-full lg:w-4/12 flex justify-center">
+<div class="relative">
+<div class="w-72 h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-2xl bg-surface-container">
+<img alt="Principal, Aspire School Rawalpindi" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZbWSQ_yBVq3q-qJZEHPRDacr7OX5APuZUsTUIz6k0yPTRE_0kaFeC_e6eqFDAitMDc7Z2ZncGZr2DN8ifNlVd5HaC7X5shkQMiMhy-G6PCvMs1WfWAH_5pdbzyw2mmFau6ibYMyUEDhkEcAQNwfh_Ht5Yy-7lSeP1HnRUSV3RpurZPLGmNlpaAS16m8f0VeKGCUz5HE6yfIuPxJZjSppuFsYEtTSetTUSXCUXqw"/>
+</div>
+<div class="absolute -bottom-4 -right-4 bg-surface text-primary p-space-sm rounded-xl shadow-lg">
+<div class="font-headline-sm text-headline-sm text-primary font-bold">12+ Years</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Academic Leadership</div>
+</div>
+</div>
+</div>
+<div class="w-full lg:w-8/12 space-y-space-md">
+<div class="flex items-center gap-space-xs text-on-tertiary-container">
+<span class="material-symbols-outlined text-[20px]">format_quote</span>
+<span class="font-label-sm text-label-sm uppercase font-bold tracking-wider">Leadership Perspective</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-primary tracking-tight">
+          "Educating with moral fortitude and intellectual precision."
+        </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container leading-relaxed">
+          At Aspire School Rawalpindi, our commitment is singularly aligned with the pivotal years between Class 5 and Class 10. We recognize that secondary education is not simply about passing board assessments; it is about cultivating analytical instincts, ethical character, and the work ethic required for future national and international success.
+        </p>
+<p class="font-body-md text-body-md text-on-primary-container leading-relaxed">
+          By combining rigorous classroom instruction with modern digital homework submissions, our students build independent study habits long before stepping into higher secondary college halls. We invite parents to partner actively in this transformative journey.
+        </p>
+<div class="pt-space-xs">
+<div class="font-headline-sm text-headline-sm text-on-primary">Principal & Senior Academic Council</div>
+<div class="font-label-sm text-label-sm text-secondary-fixed">Aspire School Rawalpindi Campus</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Notice Board & Circular Desk -->
+<section class="w-full py-space-xl px-margin bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-space-lg">
+<div>
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-wider font-bold">Official Campus Communications</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Circulars & Academic Datesheets</h2>
+</div>
+<a class="mt-space-sm md:mt-0 px-space-md py-2 rounded-lg bg-surface-container text-primary font-label-md text-label-md font-bold uppercase hover:bg-surface-container-high transition-colors" data-path="announcements" href="#">
+          Browse Archive →
+        </a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary text-on-primary font-label-sm text-label-sm uppercase font-bold">Examination Notice</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Feb 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Class 9 & 10 Pre-Board SSC Schedule</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Comprehensive datesheet for secondary matric pre-board examinations starting March 3rd, 2025. Laboratory practicals schedule enclosed.
+            </p>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">PDF Document (180 KB)</span>
+<button class="text-secondary font-label-sm text-label-sm font-bold uppercase flex items-center gap-1 hover:underline" type="button">
+              Download <span class="material-symbols-outlined text-[16px]">download</span>
+</button>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-on-tertiary-container text-tertiary font-label-sm text-label-sm uppercase font-bold">Homework Desk</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Active Term</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Classes 5–8 Mid-Session Syllabus Breakdown</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Detailed unit distributions and homework diary pacing guides for middle division students for the upcoming term examinations.
+            </p>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">PDF Document (210 KB)</span>
+<button class="text-secondary font-label-sm text-label-sm font-bold uppercase flex items-center gap-1 hover:underline" type="button">
+              Download <span class="material-symbols-outlined text-[16px]">download</span>
+</button>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-secondary text-on-secondary font-label-sm text-label-sm uppercase font-bold">Parent Circular</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Session 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Monthly Parent-Teacher Meeting (PTM)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Mandatory academic appraisal consultation for Classes 5 to 10. Individual student progress reports and online homework submission logs will be reviewed.
+            </p>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Circular Ref #ASP-PTM-04</span>
+<button class="text-secondary font-label-sm text-label-sm font-bold uppercase flex items-center gap-1 hover:underline" type="button">
+              View Timetable <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Campus Location, Contact & Editable Contact Field Card -->
+<section class="w-full py-space-xl px-margin bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-stretch">
+<!-- Contact & Admin Field -->
+<div class="lg:col-span-6 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div class="space-y-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-wider font-bold">Rawalpindi Campus Headquarters</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mt-1">Connect with Aspire School</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                We welcome parent inquiries regarding admission criteria for Classes 5 through 10, online homework submission guidance, and campus visits.
+              </p>
+</div>
+<div class="space-y-space-sm">
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[22px] mt-0.5">location_on</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-primary">Permanent Campus Address</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Haroon Chowk, Kuri Road, Shakrial, Rawalpindi, Punjab, Pakistan</div>
+</div>
+</div>
+<!-- Required Editable Blank Phone Number Section -->
+<div class="p-space-md rounded-lg bg-surface-container border border-dashed border-outline-variant">
+<div class="flex items-center justify-between mb-space-xs">
+<div class="flex items-center gap-space-xs font-label-lg text-label-lg font-bold text-primary">
+<span class="material-symbols-outlined text-on-tertiary-container text-[20px]">phone_in_talk</span>
+                    Official Campus Contact Line
+                  </div>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold">Editable by School Admin</span>
+</div>
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant block" for="campusPhoneInput">Phone: [Editable - School Admin will insert official contact]</label>
+<div class="flex items-center gap-space-xs">
+<input class="flex-1 px-space-sm py-2 rounded-lg bg-surface text-on-surface font-body-md text-body-md shadow-sm focus:outline-none focus:ring-2 focus:ring-secondary" id="campusPhoneInput" placeholder="+92 (051) [Editable - Insert Contact Number]" type="text"/>
+<button class="px-space-md py-2 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm font-bold uppercase hover:bg-primary-container transition-colors" onclick="alert('Contact number updated for Aspire School Rawalpindi records.')" type="button">
+                      Save
+                    </button>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Changes reflect globally on website header and official homework receipt footer.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[22px]">mail</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-primary">Official Admissions Desk</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">admissions@aspireschool.edu.pk</div>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-space-md">
+<a class="inline-flex items-center justify-center w-full py-3 rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg font-bold hover:bg-secondary/90 transition-colors" data-path="contact-us" href="#">
+              Submit Direct Parent Inquiry →
+            </a>
+</div>
+</div>
+<!-- Campus Location Map Representation -->
+<div class="lg:col-span-6 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold">Interactive Geographic View</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Shakrial / Kuri Road Sector</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Campus Surroundings & Accessibility</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Easily accessible via Islamabad Expressway and main Kuri Road artery, serving families across Rawalpindi and surrounding sectors.
+            </p>
+</div>
+<!-- Location Map Container as mandated -->
+<div class="my-space-md relative rounded-xl overflow-hidden shadow-inner h-72">
+<div class="w-full h-full bg-cover bg-center rounded-xl relative" data-location="Haroon Chowk, Kuri Road, Shakrial, Rawalpindi, Pakistan" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBS3-6rO6ALE-GjRPZWKGgJsWyLUr1GLpi8hV1nYrPnXAMPZlr0leZUFcM6w01YZrAGdbXojQmgZFrvWo5x_98kAFDWNPH-QfsQKvc1dVhRj32KV0Gfhq4snn3PFUTj2FiFuK9gc5RCyuS6fI0E3h-VpzuVTdWFxdGPsRGdqW9TcesFgYJpzw6ctzbmmzQfBWgB_hZtOeAHQflZh5T9JQW_clrqDxtuTD4iAV72MQ')">
+<div class="absolute inset-0 bg-primary/20 backdrop-brightness-95 flex items-center justify-center">
+<div class="bg-surface/95 backdrop-blur-md p-space-md rounded-xl shadow-lg flex items-center gap-space-sm max-w-xs text-left">
+<div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-tertiary-container shrink-0">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">school</span>
+</div>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-primary">Aspire School Rawalpindi</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Haroon Chowk, Kuri Road</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-secondary">directions_bus</span> Campus van routes operational</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Visiting Hours: 8:00 AM - 2:00 PM</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final Call to Action Strip -->
+<section class="w-full bg-primary text-on-primary py-space-lg px-margin text-center">
+<div class="max-w-4xl mx-auto space-y-space-sm">
+<h2 class="font-headline-md text-headline-md text-on-primary font-bold">
+        Ready for Rigorous Secondary Academic Success?
+      </h2>
+<p class="font-body-md text-body-md text-on-primary-container max-w-2xl mx-auto">
+        Join Aspire School Rawalpindi for the 2024-2025 academic session across Classes 5, 6, 7, 8, 9, and 10.
+      </p>
+<div class="flex flex-wrap items-center justify-center gap-space-sm pt-space-xs">
+<a class="px-space-lg py-2.5 rounded-lg bg-on-tertiary-container text-tertiary font-label-lg text-label-lg font-bold shadow-md hover:brightness-110 transition-all" data-path="online-homework-portal" href="#">
+          Launch Homework Desk
+        </a>
+<a class="px-space-lg py-2.5 rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg font-bold shadow-md hover:bg-secondary/90 transition-all" data-path="academics" href="#">
+          View Class Curriculums
+        </a>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-primary-container text-on-primary py-space-xl"><div class="w-full px-margin"><div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-space-xl"><div><div class="flex items-center gap-space-sm mb-space-md"><img alt="Aspire School Official Logo" class="h-8 w-auto object-contain brightness-200" src="https://lh3.googleusercontent.com/aida/ALJJyrCkZ2nnzLZ_rUFXl_nq9J8trl3RCf52s4dC7jcVgciWRpr6qh72nC1nLKZ19ZUyOlkaVyPQWuf9-OqnUynrPh3Vg_-SJGXO9JJtpnCUssqFaW9czaSIjvj6I7_nxGfw-cGYZ8rEOf7SUb6_-XlC2uywIXk9Lo4sxiW2B_GtPfgDZxXRp10ApxQwvYi2xv3shScGEe612NSA0uFAGRrUNzi-yl8Terl74zyCPA5Q6QI"/><span class="font-headline-sm text-headline-sm text-on-primary">Aspire School</span></div><p class="font-body-sm text-body-sm text-on-primary-container mb-space-md">Delivering rigorous secondary academic excellence across Classes 5 to 10 in Rawalpindi with integrated digital homework oversight.</p><p class="font-label-sm text-label-sm text-on-tertiary-container font-bold uppercase tracking-wider">Excellence • Integrity • Discipline</p></div><div><h4 class="font-headline-sm text-headline-sm text-on-primary mb-space-md">Academic Divisions</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-on-primary-container"><li>Classes 5 & 6 (Junior Cambridge)</li><li>Classes 7 & 8 (Middle School Foundation)</li><li>Class 9 (Matric / SSC-I)</li><li>Class 10 (Matric / SSC-II Board Prep)</li><li>Federal & Rawalpindi Board Curriculums</li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-on-primary mb-space-md">Quick Navigation</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-on-primary-container"><li><a class="hover:text-on-primary transition-colors" href="#">Online Homework Submissions</a></li><li><a class="hover:text-on-primary transition-colors" href="#">Student Academic Records</a></li><li><a class="hover:text-on-primary transition-colors" href="#">Teacher Assessment Desk</a></li><li><a class="hover:text-on-primary transition-colors" href="#">Official Circulars & Datesheets</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-on-primary mb-space-md">Campus Address</h4><div class="space-y-space-sm font-body-sm text-body-sm text-on-primary-container"><p class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-on-tertiary-container shrink-0 mt-0.5">pin_drop</span>Haroon Chowk, Kuri Road, Shakrial, Rawalpindi, Punjab, Pakistan</p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-on-tertiary-container shrink-0">call</span>Ph: +92 (051) 000-0000</p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-on-tertiary-container shrink-0">mail</span>admissions@aspireschool.edu.pk</p></div></div></div><div class="border-t border-primary/40 pt-space-md flex flex-col md:flex-row items-center justify-between text-on-primary-container font-label-md text-label-md"><p>© 2024 Aspire School Rawalpindi. All rights reserved. Registered Institution.</p><div class="flex items-center gap-space-md mt-space-sm md:mt-0"><span>Academic Portal v2.4</span><span>Privacy & Student Data Code</span></div></div></div></footer></body></html>
